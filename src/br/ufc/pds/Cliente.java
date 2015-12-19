@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Cliente {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 		String apelido;
