@@ -21,7 +21,7 @@ public class Cliente {
 			port = entrada.nextInt();
 			Socket cliente = new Socket(host, port);
 			
-			System.out.println("Digite seu Apelido de ate 8 letras:");
+			System.out.println("Digite seu Nick de ate 8 letras:");
 			apelido = entrada.next();
 			while (apelido.length() > 8 || apelido.toUpperCase().equals("SERVIDOR")) {
 				System.out.println("Formato invalido! Digite novamente!");
@@ -41,6 +41,5 @@ public class Cliente {
 		}
 
 	}
-		
 
 }
