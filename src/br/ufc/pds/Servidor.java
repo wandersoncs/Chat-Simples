@@ -7,7 +7,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Servidor {
-//fhfhsaklsdks
+
 	@SuppressWarnings("resource")
 	public static void main(String[] args){
 
@@ -37,7 +37,7 @@ public class Servidor {
 				while (!cliente.isClosed());
 			}
 		} catch (IOException e) {
-			System.out.println("O servidor nao pode entrar em execução");
+			System.out.println("O servidor nao pode entrar em execuÃ§Ã£o");
 		} catch (InputMismatchException e) {
 			System.out.println("Numero de porta invalido!");
 		}
